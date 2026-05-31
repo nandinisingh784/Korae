@@ -1,5 +1,5 @@
 import { useState } from "react"
-import koreanWords from "../data/koreanWords"
+import koreanWords from "../data/KoreanWords"
 
 function Flashcards() {
 
