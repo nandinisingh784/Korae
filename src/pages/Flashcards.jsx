@@ -1,5 +1,5 @@
 import { useState } from "react"
-import koreanWords from "../data/KoreanWords"
+import koreanWords from "../data/koreanWords"
 
 function Flashcards() {
 
@@ -19,7 +19,6 @@ function Flashcards() {
 
   return (
   <div
-  onClick={() => navigate("/flashcards")}
   className="bg-[#FFFDF9] p-8 rounded-3xl shadow-sm hover:shadow-md transition cursor-pointer"
 >
       <h1 className="text-5xl font-bold font-['Cormorant_Garamond'] text-[#4B3F35] mb-12">
